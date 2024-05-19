@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Data Visualization</title>
+    <title>Smart Egg Incubator</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
             background-color: black;
             color: white; /* Ensures text is readable on black background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
         }
         .chart-container {
             margin: 20px;
@@ -27,7 +38,9 @@
     </style>
 </head>
 <body>
-
+    <header>
+        Smart Egg Incubator
+    </header>
     <div id="componentCharts"></div>
     
     <div id="correlationChart">
